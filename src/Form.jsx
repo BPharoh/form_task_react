@@ -1,7 +1,9 @@
 import React from 'react';
+import './Form.css';
 
 const Form = (props) => {
     return (  <form onChange={props.change} onSubmit={props.submit}>
+        <h1>Input Your Details</h1>
         <div>
             <label htmlFor="firstname">First name</label>
             <input type="text" id="firstname" name="firstname" />

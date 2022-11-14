@@ -1,24 +1,24 @@
 import React from 'react';
+import './View.css';
 
 const View = (props) => {
-    return <div>
+    return <div className='viewContainer'>
            <h1>This is your input: </h1>
-           <p>
-            <span> First name {props.firstname}</span>
+           <p> First name: 
+            <span>{props.firstname}</span>
            </p>
-           <p>
-            <span> Last name {props.lastname}</span>
+           <p>Last name:
+            <span>{props.lastname}</span>
            </p>
-           <p>
-            <span> Phone {props.phone}</span>
+           <p>Phone:
+            <span>{props.phone}</span>
            </p>
-           <p>
-            <span> Role {props.role}</span>
+           <p>Role: 
+            <span>{props.role}</span>
            </p>
-           <p>
-            <span> Message {props.message}</span>
+           <p> Message: 
+            <span>{props.message}</span>
            </p>
-           
         </div>
     
 };

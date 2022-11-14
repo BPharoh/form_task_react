@@ -28,34 +28,22 @@ submitHandler = (e) => {
 }
 
 closeHandler = (e) => {
-  // this.setState({
-  //   firstname: '',
-  //   lastname: '',
-  //   phone: '',
-  //   role: '',
-  //   message: '',
-  // });
   window.location.reload();
 };
 
   render(){ 
     return (
       <div>
-        App will be here
         <Form change={this.inputHandler} 
-        submit={this.submitHandler}/>
+        submit={this.submitHandler}
+        />
         <View 
         {...this.state.note}
-        // firstname={this.state.firstname}
-        // lastname={this.state.lastname}
-        // phone={this.state.phone}
-        // role={this.state.role}
-        // message={this.state.message}
         />
 
        {this.state.showpopup && ( 
        <Popup
-        firstname={this.state.note.firstname}
+        firstname = {this.state.note.firstname}
         lastname={this.state.note.lastname}
         phone={this.state.note.phone}
         role={this.state.note.role}
