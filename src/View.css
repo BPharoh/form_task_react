@@ -2,8 +2,8 @@
     border-radius: 10px;
     border: 2px dotted;
     position: relative;
-    width: 740px;
-    height: 298px;
+    width: 540px;
+    height: 398px;
     margin: 16px auto;
     padding: 1em;
     background-color: #f2f2f2;
@@ -28,4 +28,15 @@
     font-style: italic;
     font-weight: lighter;
     padding: 2rem;
+}
+
+.viewContainer .message_style {
+    color: rgb(7, 65, 132);
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0.8rem;
+    height: 130px;
+    text-align: justify;
+    white-space: wrap;
+    overflow: auto;
 }

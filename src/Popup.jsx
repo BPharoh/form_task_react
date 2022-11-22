@@ -18,12 +18,11 @@ const Popup = (props) => {
             <p>
              Role:   <span>{props.role}</span>
             </p>
-            <p>
-            Message:   <span>{props.message}</span>
+            <p>Message: <p className='message_style'>{props.message}</p>
             </p>
             <div className='buttons'>
-            <button onClick={props.close}>Ok</button>
-            <button onClick={props.close}>Cancel</button>
+            <button onClick={props.send}>Ok</button>
+            <button onClick={props.cancel}>Cancel</button>
             </div>
             </div>
         </div>

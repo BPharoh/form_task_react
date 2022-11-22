@@ -25,10 +25,15 @@ inputHandler = (e) => {
 submitHandler = (e) => {
   e.preventDefault();
   this.setState({showpopup: !this.state.showpopup})
-}
+};
+
+sendHandler = (e) => {
+  window.location.reload();
+};
 
 closeHandler = (e) => {
-  window.location.reload();
+  e.preventDefault();
+  this.setState({showpopup: !this.state.showpopup})
 };
 
   render(){ 
@@ -48,7 +53,8 @@ closeHandler = (e) => {
         phone={this.state.note.phone}
         role={this.state.note.role}
         message={this.state.note.message}
-        close={this.closeHandler}
+        send={this.sendHandler}
+        cancel={this.closeHandler}
          /> 
          )}
       </div>

@@ -3,7 +3,7 @@ import './View.css';
 
 const View = (props) => {
     return <div className='viewContainer'>
-           <h1>This is your input: </h1>
+           <h1>These are your inputs: </h1>
            <p> First name: 
             <span>{props.firstname}</span>
            </p>
@@ -16,8 +16,8 @@ const View = (props) => {
            <p>Role: 
             <span>{props.role}</span>
            </p>
-           <p> Message: 
-            <span>{props.message}</span>
+           <p > Message: 
+            <div className='message_style'>{props.message}</div>
            </p>
         </div>
     
