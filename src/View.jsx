@@ -17,7 +17,7 @@ const View = (props) => {
             <span>{props.role}</span>
            </p>
            <p > Message: 
-            <div className='message_style'>{props.message}</div>
+            <span className='message_style'>{props.message}</span>
            </p>
         </div>
     

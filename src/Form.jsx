@@ -20,9 +20,10 @@ const Form = (props) => {
             <label htmlFor="role">Role</label>
             <select id="role" name="role" defaultValue="choice">
                 <option value="choice" disabled>Select a role</option>
+                <option value="staff" >Staff</option>
                 <option value="teacher" >Teacher</option>
                 <option value="student" >Student</option>
-                <option value="other" >Other</option>
+                <option value="others" >Others</option>
             </select>
         </div>
         <div>

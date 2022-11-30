@@ -7,3 +7,22 @@
 body {
   background-color: aqua;
 }
+
+/* .appContainer {
+  position: relative;
+}
+
+form {
+  position: absolute;
+  right: 0;
+}
+
+.viewContainer {
+  position: absolute;
+  right: 0;
+}
+
+.notesContainer {
+  position: absolute;
+  bottom: 0;
+} */
